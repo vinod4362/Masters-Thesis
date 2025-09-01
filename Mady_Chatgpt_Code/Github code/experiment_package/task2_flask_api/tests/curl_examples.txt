@@ -1,0 +1,14 @@
+# Create
+# curl -s -X POST http://127.0.0.1:5000/todos -H 'Content-Type: application/json' -d '{"title":"Buy milk"}'
+
+# List
+# curl -s http://127.0.0.1:5000/todos
+
+# Get
+# curl -s http://127.0.0.1:5000/todos/1
+
+# Update
+# curl -s -X PATCH http://127.0.0.1:5000/todos/1 -H 'Content-Type: application/json' -d '{"done":true}'
+
+# Delete
+# curl -i -X DELETE http://127.0.0.1:5000/todos/1
